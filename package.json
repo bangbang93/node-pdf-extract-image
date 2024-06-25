@@ -6,6 +6,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bangbang93/node-pdf-extract-image.git"
+  },
   "license": "MIT",
   "description": "",
   "devDependencies": {
