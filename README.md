@@ -1,9 +1,8 @@
-Sure, here's a basic `README.md` for your project:
-
-```markdown
 # PDF Extract Image
 
 This is a Node.js library for extracting images from PDF files. It uses `pdfjs-dist` for reading PDF files and `pngjs` for encoding the extracted images as PNG files.
+
+This is library did not render the PDF file to image, it only extracts the images from the PDF file. So the pdf file must contain images. Otherwise, it will return an empty array.
 
 ## Installation
 
@@ -37,6 +36,3 @@ In this example, `extractImagesFromPdf` is used to extract images from a PDF fil
 ## License
 
 This project is licensed under the MIT License.
-```
-
-Please replace `'/path/to/your.pdf'` with the actual path to your PDF file.

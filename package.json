@@ -19,7 +19,7 @@
     "url": "git+https://github.com/bangbang93/node-pdf-extract-image.git"
   },
   "license": "MIT",
-  "description": "",
+  "description": "Extract image from pdf without binary dependency",
   "devDependencies": {
     "@bangbang93/eslint-config-recommended": "^1.3.0",
     "@tsconfig/node20": "^20.1.4",
