@@ -13,7 +13,7 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm run prepare"
   },
-  "author": "",
+  "author": "bangbang93 <bangbang93@163.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bangbang93/node-pdf-extract-image.git"
