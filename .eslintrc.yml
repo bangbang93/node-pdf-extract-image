@@ -1,0 +1,15 @@
+env:
+  es6: true
+  node: true
+extends:
+  - '@bangbang93/recommended'
+  - prettier
+plugins:
+  - '@typescript-eslint'
+  - prettier
+parser: '@typescript-eslint/parser'
+parserOptions:
+  project: ./tsconfig.json
+rules:
+  prettier/prettier: 'error'
+  "eslint-comments/disable-enable-pair": ["error", {"allowWholeFile": true}]

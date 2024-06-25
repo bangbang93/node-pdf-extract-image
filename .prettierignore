@@ -1,0 +1,4 @@
+/dist
+node_modules
+/rpc-package/lib
+proto.d.ts
