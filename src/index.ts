@@ -1,7 +1,7 @@
 import {getDocument, OPS} from 'pdfjs-dist'
 import {PNG} from 'pngjs'
 
-export async function extractImagesFromPdf(pdfPath: string | Buffer): Promise<Buffer[]> {
+export async function extractImagesFromPdf(pdfPath: string | ArrayBuffer): Promise<Buffer[]> {
   const loadingTask = getDocument(pdfPath)
   const pdf = await loadingTask.promise
 
