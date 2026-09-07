@@ -12,13 +12,6 @@ You can install this library using pnpm:
 pnpm add pdf-extract-image
 ```
 
-Or with npm / yarn:
-
-```bash
-npm install pdf-extract-image
-yarn add pdf-extract-image
-```
-
 ## Usage
 
 Here's a basic example of how to use this library:
