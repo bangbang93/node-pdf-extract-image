@@ -83,3 +83,5 @@ node_modules
 .vscode
 lib
 *.png
+
+.omo/
