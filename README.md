@@ -6,10 +6,17 @@ This is library did not render the PDF file to image, it only extracts the image
 
 ## Installation
 
-You can install this library using npm:
+You can install this library using pnpm:
+
+```bash
+pnpm add pdf-extract-image
+```
+
+Or with npm / yarn:
 
 ```bash
 npm install pdf-extract-image
+yarn add pdf-extract-image
 ```
 
 ## Usage
